@@ -12,7 +12,7 @@ end
 
 
 def turtle_traits(turtles)
-  turtles.each do |turtle|
+  turtles.each do |traits|
     turtle[:traits].each do |traits|
 p traits 
     end
