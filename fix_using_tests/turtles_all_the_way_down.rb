@@ -11,10 +11,10 @@ end
 
 
 
-def turtle_traits(turtles)
-  turtles.map do |turtles|
-    [:traits].each do |traits|
-p traits 
-    end
-  end
-end
+# def turtle_traits(turtles)
+#   turtles.map do |turtles|
+#     [:traits].each do |traits|
+# p traits 
+#     end
+#   end
+# end
