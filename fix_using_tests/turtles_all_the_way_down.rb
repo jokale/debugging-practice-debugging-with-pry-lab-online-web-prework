@@ -6,9 +6,13 @@ def turtles
       {name: "Raphael", weapon: "sais", traits: ["cool", "rude"]},
       {name: "Leonardo", weapon: "katanas", traits: ["loves being a turtle"]}
     ]
+    
 end
 
+
+
 def turtle_traits(turtles)
+      binding.pry 
   turtles.each do |turtle|
     turtle[:traits].each do |traits|
 p trait
